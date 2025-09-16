@@ -34,7 +34,8 @@ End-to-end speaker diarization pipeline answering **“who spoke when”** by co
  
 ## Important files 📃
 
-* `run_diarization.py` (or notebook) — pipeline entry point
+* `graphs.ipynb` — graph python notebook
+* `sound-diarization-v2.ipynb` - sound diarization ipynb
 * `requirements.txt` — dependencies (pinned)
 * `reports/` — DER and embedding visualizations
 
