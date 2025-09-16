@@ -20,17 +20,6 @@ End-to-end speaker diarization pipeline answering **“who spoke when”** by co
 * **ASR:** Whisper (tiny) for transcripts.
 * **Evaluation:** DER, JER, confusion & overlap analysis.
 
-## Quick setup & run ⚙️
-
-```bash
-# create venv and install essentials
-python -m venv venv && source venv/bin/activate
-pip install -r requirements.txt
-
-# example run (adjust script/args to your repo)
-python run_diarization.py --input recordings/example.wav \
-  --out_rttm outputs/example.rttm --out_transcript outputs/example.txt
-```
 
 > GPU recommended for faster embedding extraction and Whisper transcription.
 
