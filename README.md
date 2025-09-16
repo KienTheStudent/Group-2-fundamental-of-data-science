@@ -4,7 +4,7 @@
 
 End-to-end speaker diarization pipeline answering **“who spoke when”** by combining pyannote (VAD, segmentation, embeddings), clustering (threshold / spectral), and Whisper for transcription. Produces time-stamped RTTM and a labeled transcript.
 
-## Team 🫂
+## Team (～￣▽￣)～
 
 * Ngo Xuan Kien — 23BI14239
 * Tran Gia Khanh — 23BI14218
