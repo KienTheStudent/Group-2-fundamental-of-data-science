@@ -20,9 +20,6 @@ End-to-end speaker diarization pipeline answering **“who spoke when”** by co
 * **ASR:** Whisper (tiny) for transcripts.
 * **Evaluation:** DER, JER, confusion & overlap analysis.
 
-
-> GPU recommended for faster embedding extraction and Whisper transcription.
-
 ## Outputs 🤖
 
 * `*.rttm` — standard time-stamped speaker segments.
